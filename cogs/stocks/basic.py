@@ -31,7 +31,7 @@ class StocksBasic(commands.Cog):
     async def quote(self, ctx, ticker):
         ticker = ticker.upper()
         endpoint = f"https://api.tdameritrade.com/v1/marketdata/{ticker}/quotes"
-        payload = {'apikey': ameritradeKey"}
+        payload = {'apikey': ameritradeKey}
 
         response = requests.get(url = endpoint, params= payload)
 
