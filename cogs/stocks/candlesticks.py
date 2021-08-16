@@ -1,8 +1,6 @@
 import discord
 from discord.ext import commands
 
-# github: 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
-
 import requests
 from dotenv import load_dotenv
 import os
