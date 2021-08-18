@@ -9,7 +9,7 @@ client = commands.Bot(command_prefix='/')
 
 # get bot token 
 load_dotenv()
-token = os.environ.get("DISCORDJS_BOT_TOKEN")
+token = os.environ.get("DISCORD_BOT_TOKEN")
 
 @client.event
 async def on_ready():
