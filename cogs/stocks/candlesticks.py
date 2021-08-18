@@ -71,7 +71,6 @@ class Candlestick(commands.Cog):
 
         mpf.plot(df)
         mpf.savefig('temp.png')
-        await ctx.send(file=discord.File('temp.png'))
 
         # return
 
